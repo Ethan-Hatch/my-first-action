@@ -4,7 +4,7 @@ const github = require('@actions/github')
 try {
     // Who-to-greet input defined in action metadata
     const nameToGreet = core.getInput('who-to-greet');
-    console.log('Hello ${nameToGreet}')
+    console.log('Hello ' + nameToGreet + '!');
 
     const time = (new Date()).toTimeString();
     core.setOutput("time", time);
