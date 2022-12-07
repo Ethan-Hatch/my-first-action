@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Hello World Action Step
       id: hello
-      uses: Ethan-Hatch/my-first-action@v1
+      uses: Ethan-Hatch/my-first-action@v1.1
       with:
         who-to-greet: 'Ethan Hatch'
         
