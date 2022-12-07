@@ -11,5 +11,6 @@ jobs:
       uses: Ethan-Hatch/my-first-action@v1
       with:
         who-to-greet: 'Ethan Hatch'
+        
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
